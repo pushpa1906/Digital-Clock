@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Clock</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="clock-container">
+
+        <h1>World Time Zones</h1>
+
+        <!-- City Selector -->
+        <div class="search-city">
+            <input type="text" id="cityInput" placeholder="Search city...">
+            <button id="searchCityBtn">Search</button>
+        </div>
+
+        <div class="city-selector">
+            <button id="clearAllBtn">Clear All</button>
+        </div>
+        <div class="clock-box">
+            <h2 id="selectedCityName">San Francisco</h2>
+            <p id="selectedCityTime"></p>
+        </div>
+
+    
+
+        <!-- World Clock List -->
+
+        <div class="timezone-container">
+            <div class="clock-box">
+                <h2>New York</h2>
+                <p id="newyork"></p>
+                <span class="timezone-label">EST</span>
+                <button class="remove-btn">Remove</button>
+            </div>
+
+            <div class="clock-box">
+                <h2>Denver</h2>
+                <p id="denver"></p>
+                <span class="timezone-label">MST</span>
+                <button class="remove-btn">Remove</button>
+            </div>
+
+            <div class="clock-box">
+                <h2>Dallas</h2>
+                <p id="dallas"></p>
+                <span class="timezone-label">CST</span>
+                <button class="remove-btn">Remove</button>
+            </div>
+
+            <div class="clock-box">
+                <h2>New Delhi</h2>
+                <p id="newdelhi"></p>
+                <span class="timezone-label">IST</span>
+                <button class="remove-btn">Remove</button>
+            </div>
+
+        </div>
+        <div>
+            <a href="clock.html">← Back to Main Clock</a>
+        </div>
+    </div>
+    
+
+
+    <script src="timezone.js"></script>
+</body>
+
+</html>
